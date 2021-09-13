@@ -1,0 +1,184 @@
+
+/********************** ESTILOS BASICOS ***********************/
+
+body {
+	margin: 0;
+	font-family: 'Urbanist', sans-serif;	
+	background-color:#D1BF91 ; 
+}
+h1 {
+	color: #A6341B;
+	font-size: 250%
+}
+
+h2 {
+	color: #A6341B;	
+}
+
+strong {
+	color: #A6341B;	
+	font-weight: 900px;
+	}
+
+.banner {
+  width: 100%;
+  margin-bottom: -5px;  
+}
+
+#menu {
+  display: flex;
+  background-color: #F9C743;
+  margin: 0 auto;
+  text-align: center;   
+  margin-bottom: 100px;
+  border: 1px #c7c8c4 solid; 
+}
+   
+#menu > div {
+	font-size:30px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	margin: 10px;
+	line-height: 5px;
+	font-size: 30px;
+    		
+	text-decoration: none;	
+}
+
+.menuItems > a {
+	text-decoration: none;
+	color: black;
+	font-size:20px;
+	font-weight:bold;	
+}
+
+.menuItems > a:hover { 
+	background-color: #A6341B; 
+	border-radius: 3px;
+	border: 2px #60371E solid;
+	width: 90%;
+	color: white;
+}		
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height:40px;		
+}
+
+
+/********************** ESTILOS ABOUT ***********************/
+.card {
+	 display: flex;	 
+	 margin: 0 auto;	
+}
+
+.card > div {	
+	display: flex;
+	justify-items: center;	
+	line-height: 40px;
+	font-size: 20px;
+	text-align: left;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+.imagenCard { 
+	border: 5px #A6341B solid;
+	border-radius: 8px;
+}
+
+/********************** ESTILOS CONTACT ***********************/
+
+#formulario {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height:40px;
+}	
+
+#contenedorFormulario {
+	width: 30%;
+	margin: 0 auto;
+	font-size: 20px;
+	border-radius: 4px; 
+	background-color: #c7c8c4;
+	text-align: left;
+	padding: 50px;
+	border: solid 1px #60371E;
+
+}
+
+#submitContainer {
+	text-align: center;
+}
+
+#botonSubmit {
+	font-size: 110%;
+	text-align: center;
+	width: 30%;	
+	padding:10px;
+	background-color:  #A6341B;
+	border-radius: 5px;	
+}
+
+#botonSubmit:hover {
+	color:white;
+}
+
+
+input {   
+	padding: 10px;
+	border-radius: 4px;
+	border: solid 1px #60371E;
+	width: 95%;
+}
+
+textarea{   /** se agrego **/
+	border: solid 1px #60371E;
+	border-radius: 4px;
+	width: 100%;
+}
+
+/********************** ESTILOS FOOTER ***********************/
+
+footer {
+	width: 100%; 
+	height: 211px;
+	background-color: #60371E;
+	color: #d1bf91;
+	
+}
+
+#container-footer {
+	margin-top: 80px;
+	padding-top: 60px;
+	padding-bottom: 0;	
+	text-align: center;
+	font-size:12px;
+
+}
+
+#listContainer {	
+	display: flex;
+	justify-content: center;
+	text-align: center;		
+} 
+
+#listContainer > a {
+	color:#d1bf91;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 17px;
+	padding-bottom: 30px;
+}
+
+#listContainer > a:hover {
+	color: #F9C743;
+}
+
