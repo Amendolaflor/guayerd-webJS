@@ -91,6 +91,16 @@ strong {
 	border-radius: 8px;
 }
 
+.btn {
+	font-size: 80%;
+	text-align: center;
+	width: 100px;	
+	padding:10px;
+	background-color:  #A6341B;
+	color: white;
+	border-radius: 5px;	
+}
+
 /********************** ESTILOS CONTACT ***********************/
 
 #formulario {
